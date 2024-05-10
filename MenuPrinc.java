@@ -23,11 +23,10 @@ public class MenuPrinc extends javax.swing.JFrame {
     
     
 
-  ///----------------------///----------------//  
+  ///------------Implementadi Hilos ---------------//  
    Boolean Apagar;
-/**
-  *
-  int i=0;
+
+int i=0;
 Timer timer = new Timer();  
 class MiTarea extends TimerTask{
   public void run(){
@@ -52,10 +51,7 @@ class MiTarea extends TimerTask{
   }  
     
 }
-  */
- 
-       
-  
+
     public MenuPrinc() {
         initComponents();
         Apagar =true;
